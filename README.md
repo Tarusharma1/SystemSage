@@ -61,7 +61,7 @@ uv pip install systemsage
 
 ## Configuration
 
-### Claude Desktop Setup
+### Cursor Desktop Setup
 
 #### Using uvx (recommended)
 
@@ -93,9 +93,9 @@ uv pip install systemsage
 
 ### Debugging
 
-If you cloned this repository, you can test it using Claude Desktop with below configuration:
+If you cloned this repository, you can test it using Cursor Desktop with below configuration:
 
-**With Claude Desktop**
+**With Cursor Desktop**
 
 {
     "mcpServers": {

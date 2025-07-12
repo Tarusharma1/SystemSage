@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "systemsage"
+version = "0.1"
+authors = [
+  { name="Taru Sharma", email="taru2828sharma@gmail.com" },
+]
+description = "A cross-platform system management and monitoring tool"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["system", "monitoring", "management", "mcp", "cross-platform", "psutil"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Systems Administration",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Networking :: Monitoring",
+    "Topic :: System :: Installation/Setup",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = [
+    "psutil>=5.9.0",
+    "fastmcp>=1.0.0",
+    "click>=8.1.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Tarusharma1/SystemSage"
+"Bug Tracker" = "https://github.com/Tarusharma1/SystemSage/issues"
+"Repository" = "https://github.com/Tarusharma1/SystemSage"
+
+[project.scripts]
+systemsage = "SystemSage:main"
+
+[project.optional-dependencies]
+cloud = [
+    "requests>=2.31.0",
+    "docker>=6.1.0",
+    "kubernetes>=28.1.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "isort>=5.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+[tool.setuptools]
+packages = ["SystemSage"] 

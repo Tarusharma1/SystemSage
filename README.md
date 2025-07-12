@@ -63,49 +63,53 @@ uv pip install systemsage
 
 ### Claude Desktop Setup
 
+#### Using uvx (recommended)
+
 ```json
+{
+    "mcpServers": {
+        "apple-books-mcp": {
+            "command": "uvx",
+            "args": [ "systemsage@latest" ]
+        }
+    }
+}
+```
+
+#### Using python
+
+
+```json
+{
+    "mcpServers": {
+        "systemsage": {
+            "command": "python",
+            "args": ["-m", "SystemSage"]
+        }
+    }
+}
+```
+
+
+### Debugging
+
+If you cloned this repository, you can test it using Claude Desktop with below configuration:
+
+**With Claude Desktop**
+
 {
     "mcpServers": {
         "systemsage": {
             "command": "uv",
             "args": [
                 "--directory",
-                "/path/to/SystemSage/",
+                "C:/Users/sharm/Downloads/SystemSage/",
                 "run",
                 "systemsage"
             ]
         }
     }
 }
-```
-
-### VS Code Setup
-
-Create `.vscode/mcp.json` in your workspace:
-
-```json
-{
-    "mcp": {
-        "servers": {
-            "systemsage": {
-                "type": "stdio",
-                "command": "python",
-                "args": ["-m", "SystemSage"]
-            }
-        }
-    }
-}
-```
-
-### Docker Support
-
-```bash
-# Build the image
-docker build -t systemsage .
-
-# Run the container
-docker run --rm systemsage
-```
 
 ## Features in Detail
 
@@ -151,42 +155,6 @@ docker run --rm systemsage
 - requests>=2.31.0 (for cloud services)
 - docker>=6.1.0 (for Docker management)
 - kubernetes>=28.1.0 (for Kubernetes monitoring)
-
-## Example Usage
-
-### Basic System Monitoring
-```python
-# Get current system status
-cpu_usage = mcp.get_cpu_usage()
-memory_usage = mcp.get_memory_usage()
-disk_usage = mcp.get_disk_usage()
-
-# Monitor system for 5 minutes
-system_metrics = mcp.monitor_system_resources(duration=300)
-```
-
-### Process Management
-```python
-# Find all Python processes
-python_processes = mcp.find_processes_by_name("python")
-
-# Get details of a specific process
-process_info = mcp.get_process_details(pid=1234)
-```
-
-### Service Management
-```python
-# Check and manage services
-nginx_status = mcp.check_service_status("nginx")
-mcp.restart_service("nginx")
-```
-
-### Docker Management
-```python
-# List and manage containers
-containers = mcp.list_docker_containers()
-mcp.manage_docker_containers("start", "my-container")
-```
 
 ## Contributing
 

@@ -19,9 +19,10 @@ A powerful cross-platform system management and monitoring tool that provides co
 * Perform security checks and monitoring
 * Manage system services efficiently
 
-https://github.com/Tarusharma1/SystemSage/issues/1#issue-3225794807
+![Screenshot](https://github.com/Tarusharma1/SystemSage/assets/139852118/93e5f7d6-7674-4ad1-8b8d-b99e1f9ac313)
 
-https://github.com/Tarusharma1/SystemSage/issues/2#issue-3225795483
+
+![Screenshot](https://github.com/Tarusharma1/SystemSage/assets/139852118/ccf70b20-d2da-44eb-8057-541f3976f650)
 
 ## Available Tools
 
@@ -178,12 +179,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Usage Examples
+## Security Notice
 
-Here are some examples of SystemSage in action:
+SystemSage is a powerful tool that provides extensive control over your system. With great power comes great responsibility.
 
-![System Resource and Port Scanning](ss1.png)
-*Example showing internet connectivity check, disk space usage, and open ports scan*
-
-![Process Management](ss2.png)
-*Example showing performance monitoring and process management (WPS service termination)*
+- **Use with Caution**: Many tools can make significant changes to your system, such as killing processes, managing services, or modifying files. Be sure you understand the commands you are running.
+- **Administrator Privileges**: Some features require administrator (root/sudo) privileges to function. Running as an administrator increases the risk of unintended changes. Only use these privileges when necessary.
+- **No Guarantees**: This tool is provided "as is" without any warranties. The developers are not responsible for any damage or data loss that may result from its use. Always back up important data before performing system-critical operations.

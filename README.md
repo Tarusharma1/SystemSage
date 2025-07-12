@@ -19,10 +19,10 @@ A powerful cross-platform system management and monitoring tool that provides co
 * Perform security checks and monitoring
 * Manage system services efficiently
 
-![Screenshot](https://github.com/Tarusharma1/SystemSage/assets/139852118/93e5f7d6-7674-4ad1-8b8d-b99e1f9ac313)
+![Screenshot](https://github.com/Tarusharma1/SystemSage/issues/2#issue-3225795483)
 
 
-![Screenshot](https://github.com/Tarusharma1/SystemSage/assets/139852118/ccf70b20-d2da-44eb-8057-541f3976f650)
+![Screenshot](https://github.com/Tarusharma1/SystemSage/issues/1#issue-3225794807)
 
 ## Available Tools
 
@@ -179,7 +179,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Security Notice
+## Security Caution
 
 SystemSage is a powerful tool that provides extensive control over your system. With great power comes great responsibility.
 

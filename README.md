@@ -8,6 +8,9 @@ A powerful cross-platform system management and monitoring tool that provides co
 
 ## At a Glance
 
+* Ask which services is taking high resources
+* Ask  can you close this [service name] 
+* Ask can u check internet is working 
 * Monitor system resources in real-time (CPU, Memory, Disk)
 * Manage processes and services across different operating systems
 * Track network interfaces and performance
@@ -15,6 +18,10 @@ A powerful cross-platform system management and monitoring tool that provides co
 * Get instant system alerts and diagnostics
 * Perform security checks and monitoring
 * Manage system services efficiently
+
+https://github.com/Tarusharma1/SystemSage/issues/1#issue-3225794807
+
+https://github.com/Tarusharma1/SystemSage/issues/2#issue-3225795483
 
 ## Available Tools
 
@@ -97,6 +104,7 @@ If you cloned this repository, you can test it using Cursor Desktop with below c
 
 **With Cursor Desktop**
 
+'''json
 {
     "mcpServers": {
         "systemsage": {
@@ -110,7 +118,7 @@ If you cloned this repository, you can test it using Cursor Desktop with below c
         }
     }
 }
-
+'''
 ## Features in Detail
 
 ### System Monitoring
@@ -169,3 +177,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Usage Examples
+
+Here are some examples of SystemSage in action:
+
+![System Resource and Port Scanning](ss1.png)
+*Example showing internet connectivity check, disk space usage, and open ports scan*
+
+![Process Management](ss2.png)
+*Example showing performance monitoring and process management (WPS service termination)*

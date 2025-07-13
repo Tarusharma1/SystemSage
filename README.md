@@ -105,7 +105,7 @@ If you cloned this repository, you can test it using Cursor Desktop with below c
 
 **With Cursor Desktop**
 
-'''json
+```json
 {
     "mcpServers": {
         "systemsage": {
@@ -119,7 +119,7 @@ If you cloned this repository, you can test it using Cursor Desktop with below c
         }
     }
 }
-'''
+```
 ## Features in Detail
 
 ### System Monitoring

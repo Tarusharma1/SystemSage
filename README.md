@@ -18,11 +18,10 @@ A powerful cross-platform system management and monitoring tool that provides co
 * Get instant system alerts and diagnostics
 * Perform security checks and monitoring
 * Manage system services efficiently
+<img width="1368" height="754" alt="ss1" src="https://github.com/user-attachments/assets/3fa7e989-fff8-4b36-8839-b942f813342f" />
 
-![Screenshot](https://github.com/Tarusharma1/SystemSage/issues/2#issue-3225795483)
 
-
-![Screenshot](https://github.com/Tarusharma1/SystemSage/issues/1#issue-3225794807)
+<img width="1374" height="939" alt="ss2" src="https://github.com/user-attachments/assets/e34f1df9-431d-491b-8021-6525cabb7134" />
 
 ## Available Tools
 
@@ -112,7 +111,7 @@ If you cloned this repository, you can test it using Cursor Desktop with below c
             "command": "uv",
             "args": [
                 "--directory",
-                "C:/Users/sharm/Downloads/SystemSage/",
+                "/Path to project/SystemSage/",
                 "run",
                 "systemsage"
             ]

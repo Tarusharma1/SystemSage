@@ -75,7 +75,7 @@ uv pip install systemsage
 ```json
 {
     "mcpServers": {
-        "apple-books-mcp": {
+        "systemsage": {
             "command": "uvx",
             "args": [ "systemsage@latest" ]
         }
